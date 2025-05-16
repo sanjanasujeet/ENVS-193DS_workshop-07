@@ -1,7 +1,7 @@
 ---
 title: "Linear regression"
-author: "your name here"
-date: "insert date here"
+author: "Sanjana Sujeet"
+date: "5-15-2025"
 format:
   html:
     toc: true # use this to display a table of contents
@@ -19,6 +19,9 @@ library(here) # file/folder organization
 library(readxl) # reading .xlsx files
 library(ggeffects) # generating model predictions
 library(gtsummary) # generating summary tables for models
+library(flextable)
+#install.packages("broom.helpers")
+library(broom.helpers)
 
 # abalone data from Hamilton et al. 2022
 abalone <- read_xlsx(here("data", "Abalone IMTA_growth and pH.xlsx"))
