@@ -68,7 +68,7 @@ ggplot(data = abalone_clean,
   # first layer: points representing abalones
   geom_point(size = 4,
              stroke = 1,
-             fill = "firebrick4",
+             fill = "#283943",
              shape = 21)
 ```
 
